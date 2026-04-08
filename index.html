@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidade - Love Brasil</title>
+  <meta name="description" content="Política de Privacidade do aplicativo Love Brasil." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #fff7fb;
+      --card: #ffffff;
+      --text: #2c1b24;
+      --muted: #6f5b66;
+      --primary: #e91e63;
+      --primary-dark: #c2185b;
+      --border: #f3d6e3;
+      --shadow: 0 12px 35px rgba(233, 30, 99, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background: linear-gradient(180deg, #fff1f7 0%, #fff8fc 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    .container {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      padding: 56px 0 28px;
+    }
+
+    .hero {
+      background: radial-gradient(circle at top right, rgba(233, 30, 99, 0.14), transparent 35%), var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 36px 28px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(233, 30, 99, 0.12);
+      color: var(--primary-dark);
+      font-size: 13px;
+      font-weight: 600;
+      border-radius: 999px;
+      padding: 8px 14px;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.15;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    main {
+      padding: 8px 0 56px;
+    }
+
+    .content {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 30px 24px;
+    }
+
+    h2 {
+      margin-top: 28px;
+      margin-bottom: 12px;
+      font-size: 22px;
+      color: var(--primary-dark);
+    }
+
+    h3 {
+      margin-top: 18px;
+      margin-bottom: 8px;
+      font-size: 17px;
+      color: #7c2147;
+    }
+
+    p, li {
+      font-size: 15px;
+      color: var(--text);
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-top: 8px;
+    }
+
+    .highlight {
+      background: #fff0f6;
+      border: 1px solid #ffd5e5;
+      border-radius: 18px;
+      padding: 16px 18px;
+      margin: 18px 0;
+    }
+
+    .warning {
+      background: #fff8e8;
+      border-color: #f4ddb1;
+    }
+
+    .footer {
+      margin-top: 28px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    a {
+      color: var(--primary-dark);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    .toc {
+      background: #fff7fb;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 18px;
+      margin: 22px 0;
+    }
+
+    .toc ul {
+      columns: 2;
+      gap: 24px;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      background: #fff1f7;
+      border: 1px solid #ffd4e4;
+      padding: 2px 8px;
+      border-radius: 8px;
+      font-size: 13px;
+    }
+
+    @media (max-width: 720px) {
+      .hero, .content { padding: 22px 18px; border-radius: 18px; }
+      .toc ul { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <section class="hero">
+        <span class="badge">Love Brasil • Política de Privacidade</span>
+        <h1>Política de Privacidade</h1>
+        <p class="subtitle">
+          Última atualização: 08 de abril de 2026
+        </p>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section class="content">
+        <p>
+          Esta Política de Privacidade descreve como o aplicativo <strong>Love Brasil</strong> coleta,
+          usa, armazena, compartilha e protege os dados pessoais de seus usuários.
+          Ao utilizar o aplicativo, você declara que leu e compreendeu este documento.
+        </p>
+
+        <div class="highlight warning">
+          <strong>Importante:</strong> antes de publicar esta página, substitua os campos entre colchetes,
+          como <code>[SEU E-MAIL DE CONTATO]</code>, <code>[NOME DA EMPRESA OU RESPONSÁVEL]</code>
+          e <code>[CIDADE/UF]</code>, pelos seus dados reais.
+        </div>
+
+        <nav class="toc" aria-label="Sumário">
+          <strong>Sumário</strong>
+          <ul>
+            <li><a href="#dados-coletados">1. Dados coletados</a></li>
+            <li><a href="#finalidades">2. Finalidades do uso</a></li>
+            <li><a href="#base-legal">3. Base legal</a></li>
+            <li><a href="#compartilhamento">4. Compartilhamento</a></li>
+            <li><a href="#armazenamento">5. Armazenamento e retenção</a></li>
+            <li><a href="#seguranca">6. Segurança</a></li>
+            <li><a href="#direitos">7. Direitos do usuário</a></li>
+            <li><a href="#cookies">8. Cookies e tecnologias similares</a></li>
+            <li><a href="#menores">9. Faixa etária</a></li>
+            <li><a href="#internacional">10. Transferências internacionais</a></li>
+            <li><a href="#alteracoes">11. Alterações desta política</a></li>
+            <li><a href="#contato">12. Contato</a></li>
+          </ul>
+        </nav>
+
+        <h2 id="dados-coletados">1. Dados coletados</h2>
+        <p>Para disponibilizar os recursos do Love Brasil, podemos coletar as seguintes categorias de dados:</p>
+
+        <h3>1.1 Dados fornecidos diretamente por você</h3>
+        <ul>
+          <li>Nome completo;</li>
+          <li>Nome de usuário;</li>
+          <li>Número de telefone;</li>
+          <li>E-mail;</li>
+          <li>Senha de acesso criptografada;</li>
+          <li>Data de nascimento;</li>
+          <li>Gênero e preferência de perfis;</li>
+          <li>Biografia e descrição do que você procura;</li>
+          <li>Fotos de perfil enviadas por você.</li>
+        </ul>
+
+        <h3>1.2 Dados de localização</h3>
+        <p>
+          O aplicativo pode solicitar acesso à sua localização para permitir filtros de distância,
+          sugestão de perfis próximos e melhoria da experiência de uso. A localização pode ser
+          coletada como coordenadas aproximadas ou precisas, conforme a permissão concedida no seu dispositivo.
+        </p>
+
+        <h3>1.3 Dados de uso e interação</h3>
+        <ul>
+          <li>Perfis visualizados, curtidos e ignorados;</li>
+          <li>Matches realizados;</li>
+          <li>Mensagens trocadas no chat;</li>
+          <li>Data e hora de acesso;</li>
+          <li>Informações básicas de dispositivo, sistema operacional e versão do app;</li>
+          <li>Registros técnicos para prevenção de fraude, falhas e abuso da plataforma.</li>
+        </ul>
+
+        <h3>1.4 Dados de permissões do aparelho</h3>
+        <p>Dependendo dos recursos utilizados, o aplicativo poderá solicitar acesso a:</p>
+        <ul>
+          <li><strong>Câmera</strong>, para captura de fotos;</li>
+          <li><strong>Galeria ou armazenamento</strong>, para envio de imagens;</li>
+          <li><strong>Localização</strong>, para filtros por proximidade;</li>
+          <li><strong>Notificações</strong>, para avisos de novo match e outras interações.</li>
+        </ul>
+
+        <h2 id="finalidades">2. Finalidades do uso dos dados</h2>
+        <p>Seus dados podem ser utilizados para as seguintes finalidades:</p>
+        <ul>
+          <li>Criar, autenticar e manter sua conta;</li>
+          <li>Montar e exibir seu perfil dentro da plataforma;</li>
+          <li>Exibir perfis compatíveis com suas preferências;</li>
+          <li>Aplicar filtros por gênero e distância;</li>
+          <li>Registrar curtidas, matches e interações;</li>
+          <li>Permitir troca de mensagens entre usuários com match;</li>
+          <li>Enviar notificações sobre novos matches e atividades relevantes;</li>
+          <li>Prevenir fraudes, comportamentos abusivos e uso indevido da plataforma;</li>
+          <li>Melhorar desempenho, segurança e funcionalidades do aplicativo;</li>
+          <li>Cumprir obrigações legais e regulatórias, quando aplicável.</li>
+        </ul>
+
+        <h2 id="base-legal">3. Base legal para tratamento de dados</h2>
+        <p>
+          O tratamento de dados pessoais poderá ocorrer com base em diferentes fundamentos previstos na
+          Lei Geral de Proteção de Dados (LGPD), incluindo:
+        </p>
+        <ul>
+          <li>execução de contrato e prestação dos serviços do aplicativo;</li>
+          <li>consentimento do usuário, quando necessário;</li>
+          <li>cumprimento de obrigação legal ou regulatória;</li>
+          <li>exercício regular de direitos;</li>
+          <li>legítimo interesse, quando aplicável e respeitados os direitos e liberdades do titular.</li>
+        </ul>
+
+        <h2 id="compartilhamento">4. Compartilhamento de dados</h2>
+        <p>O Love Brasil poderá compartilhar dados pessoais nas seguintes hipóteses:</p>
+        <ul>
+          <li>Com outros usuários, na medida necessária ao funcionamento do app, como exibição do seu perfil, fotos, nome e bio;</li>
+          <li>Com fornecedores de infraestrutura, hospedagem, banco de dados, analytics, notificações e armazenamento de imagens;</li>
+          <li>Com autoridades públicas, mediante obrigação legal, decisão judicial ou requisição válida;</li>
+          <li>Para proteção de direitos, segurança da plataforma e prevenção de fraudes ou abusos.</li>
+        </ul>
+
+        <div class="highlight">
+          <strong>Observação:</strong> mensagens de chat, fotos e dados de perfil podem ser visualizados por outros usuários dentro dos limites das funcionalidades do aplicativo.
+        </div>
+
+        <h2 id="armazenamento">5. Armazenamento e retenção dos dados</h2>
+        <p>
+          Os dados serão armazenados pelo período necessário para cumprir as finalidades descritas nesta política,
+          inclusive para manter o funcionamento da conta, garantir segurança, resolver disputas e cumprir exigências legais.
+        </p>
+        <p>
+          Caso você solicite a exclusão da conta, seus dados poderão ser excluídos ou anonimizados,
+          observados prazos legais, registros obrigatórios e necessidades legítimas de segurança, auditoria e prevenção a fraude.
+        </p>
+
+        <h2 id="seguranca">6. Segurança das informações</h2>
+        <p>
+          Adotamos medidas técnicas e administrativas razoáveis para proteger os dados pessoais contra acesso não autorizado,
+          perda, alteração, divulgação ou destruição indevida. Isso pode incluir, por exemplo:
+        </p>
+        <ul>
+          <li>Criptografia de senhas;</li>
+          <li>Controles de autenticação e autorização;</li>
+          <li>Restrição de acesso administrativo;</li>
+          <li>Validação de dados e monitoramento de atividades suspeitas.</li>
+        </ul>
+        <p>
+          Ainda assim, nenhum sistema é totalmente invulnerável, e não é possível garantir segurança absoluta.
+        </p>
+
+        <h2 id="direitos">7. Direitos do usuário</h2>
+        <p>Nos termos da legislação aplicável, você poderá solicitar, quando cabível:</p>
+        <ul>
+          <li>Confirmação da existência de tratamento de seus dados;</li>
+          <li>Acesso aos dados pessoais;</li>
+          <li>Correção de dados incompletos, inexatos ou desatualizados;</li>
+          <li>Anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos;</li>
+          <li>Portabilidade, quando aplicável;</li>
+          <li>Revogação do consentimento;</li>
+          <li>Informações sobre compartilhamento de dados;</li>
+          <li>Exclusão da conta, observadas as hipóteses legais de retenção.</li>
+        </ul>
+        <p>
+          Para exercer seus direitos, utilize o canal de contato indicado ao final desta política.
+        </p>
+
+        <h2 id="cookies">8. Cookies e tecnologias similares</h2>
+        <p>
+          O aplicativo pode utilizar tokens, identificadores, logs e tecnologias similares para manter sua sessão,
+          autenticar acessos, armazenar preferências, melhorar desempenho e coletar métricas de uso.
+        </p>
+
+        <h2 id="menores">9. Faixa etária e uso por menores</h2>
+        <p>
+          O Love Brasil é destinado exclusivamente a pessoas com <strong>18 anos ou mais</strong>.
+          Não permitimos cadastro intencional por menores de idade. Se identificarmos conta em desacordo com essa regra,
+          poderemos suspender ou excluir o cadastro e os dados associados.
+        </p>
+
+        <h2 id="internacional">10. Transferências internacionais</h2>
+        <p>
+          Alguns fornecedores de tecnologia utilizados pelo aplicativo podem processar ou armazenar dados em servidores localizados fora do Brasil.
+          Nesses casos, buscaremos adotar medidas adequadas para proteção dos dados, em conformidade com a legislação aplicável.
+        </p>
+
+        <h2 id="alteracoes">11. Alterações desta política</h2>
+        <p>
+          Esta Política de Privacidade poderá ser atualizada periodicamente para refletir mudanças legais, técnicas ou operacionais.
+          Recomendamos que você revise esta página com frequência. A data da última atualização estará sempre indicada no topo do documento.
+        </p>
+
+        <h2 id="contato">12. Contato</h2>
+        <p>
+          Em caso de dúvidas, solicitações relacionadas a dados pessoais ou exercício de direitos, entre em contato com:
+        </p>
+        <ul>
+          <li><strong>Responsável:</strong> [NOME DA EMPRESA OU RESPONSÁVEL]</li>
+          <li><strong>E-mail:</strong> <a href="mailto:[SEU E-MAIL DE CONTATO]">[SEU E-MAIL DE CONTATO]</a></li>
+          <li><strong>Cidade/UF:</strong> [CIDADE/UF]</li>
+        </ul>
+
+        <div class="footer">
+          <p>
+            Esta página foi preparada para publicação estática em GitHub Pages.
+            Você pode usá-la como <code>index.html</code> do seu repositório.
+          </p>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
